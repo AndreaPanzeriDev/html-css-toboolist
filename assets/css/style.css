@@ -68,7 +68,8 @@ hr{
 }
 
 h2{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2::before{
@@ -103,15 +104,36 @@ h2::before{
     border: 1px solid red;
 }
 
-.sblu{
-    background-color: #47adf1;
+.sblu, .sviola, .sgreen, .sarancione{
     color: white;
-    border: 1px solid #47adf1;
-    margin: 20px 0 10px 0px;
+    margin: 0px 0 10px 0px;
     display: inline-block;
     border-radius: 10px;
     font-size: 13px;
     padding: 3px 10px 3px 10px;
+    margin-left: 7px;
+}
+
+.sblu{
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    
+}
+
+
+.sviola{
+    background-color: #9c72e4;
+    border: 1px solid #9c72e4;
+}
+
+.sgreen{
+    background-color: #64c0a9;
+    border: 1px solid #64c0a9;
+}
+
+.sarancione{
+    background-color: #f19d32;
+    border: 1px solid #f19d32;
 }
 
 

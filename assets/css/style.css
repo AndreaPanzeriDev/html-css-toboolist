@@ -29,7 +29,7 @@ h1{
 }
 
 main{
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: white;
     margin-top: 30px;
@@ -79,6 +79,7 @@ h2::before{
 .corretto, .sbagliato{
     font-size: 20px;
     display: block;
+    margin: 0px 0 10px 0px;
 }
 
 
@@ -104,9 +105,8 @@ h2::before{
     border: 1px solid red;
 }
 
-.sblu, .sviola, .sgreen, .sarancione{
+.sblu, .sviola, .sgreen, .sarancione, .srosa, .sgreen2{
     color: white;
-    margin: 0px 0 10px 0px;
     display: inline-block;
     border-radius: 10px;
     font-size: 13px;
@@ -134,6 +134,16 @@ h2::before{
 .sarancione{
     background-color: #f19d32;
     border: 1px solid #f19d32;
+}
+
+.srosa{
+    background-color: #d762a0;
+    border: 1px solid #d762a0;
+}
+
+.sgreen2{
+    background-color: #98cc9c;
+    border: 1px solid #98cc9c;
 }
 
 

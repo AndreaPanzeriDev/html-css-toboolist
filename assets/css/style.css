@@ -7,6 +7,10 @@
     
 }
 
+.corretto, .sbagliato, h1, h2{
+    font-family: sans-serif;
+}
+
 body{
     background-color: #f6f8f9;
 }
@@ -23,7 +27,6 @@ header img,h1{
 
 h1{
     display: inline-block;
-    font-family: serif;
     font-size: 44px;
     
 }
@@ -33,6 +36,7 @@ main{
     margin: auto;
     background-color: white;
     margin-top: 30px;
+    border-radius: 10px;
     
 }
 
@@ -70,16 +74,19 @@ hr{
 h2{
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #444851;
 }
 
 h2::before{
     content: '\25BC';
+    font-size: 13px;
 }
 
 .corretto, .sbagliato{
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     margin: 0px 0 10px 0px;
+    color: #474b53;
 }
 
 
